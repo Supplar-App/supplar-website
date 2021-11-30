@@ -1,14 +1,15 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="h-100">
 
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Supplar</title>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/cover/">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,56 +20,71 @@
     <!-- FontAwesome -->
     <link href="fontawesome/css/all.css" rel="stylesheet">
 
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
     <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+
         .img-fluid {
-            max-width: 30%;
+            max-width: 70%;
+            height: auto;
+        }
+
+        #button {
+            max-width: 70%;
             height: auto;
         }
     </style>
-    <title>Hello, world!</title>
 
+
+    <!-- Custom styles for this template -->
+    <link href="cover.css" rel="stylesheet">
 </head>
 
-<body style="background-color: #F4F4F9; font-family: 'Comfortaa', sans-serif;">
-    <br>
-    <center>
-        <div class="p-4">
-            <img class="img-fluid" src="images/Logo.png" alt="">
-            <br>
-            <br>
-            <h1 style="color: #22333B; font-weight: 700; font-size: 4em;">
-                Питаться правильно<br> – это несложно <i class="fas fa-utensils" style="color: #0FA3B1;"></i>
-            </h1>
-            <br>
-            <img class="img pl-4" alt="AppStore" src="images/AppStore.svg" alt="" height="60em">
-            <img class="img pl-4" alt="GooglePlay" src="images/GooglePlay.png" alt="" height="88em">
-            <br>
-            <br>
-            <img class="img-fluid mt-4" alt="Responsive iPhone" src="images/IPhone.png" class="d-inline-block align-top"
-                alt="">
-            <br>
-            <br>
-            <br>
-            <a class="pb-1" style="color: #22333B; font-weight: 300; font-size: 1em;" href="#">Политика
-                конфиденциальности</a>
-            <br>
-            <a class="pb-1" style="color: #22333B; font-weight: 300; font-size: 1em;" href="#">Условия
-                использования</a>
-        </div>
-    </center>
+<body class="d-flex text-center text-white bg-dark">
+
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="mb-auto pb-3">
+            <div>
+                <h1 class="float-md-none mb-0 mt-2">Supplar</h1>
+            </div>
+        </header>
+
+        <main class="px-3">
+            <h1>Правильное питание</h1>
+            <p class="lead pb-2">Здоровое питание обеспечивает защиту от неинфекционных заболеваний, включая диабет,
+                болезни сердца, инсульт и рак. Поверьте, это не пустые слова.</p>
+            <p class="lead">
+                <img src="images/AppStore.png" class="img-fluid" id="button">
+            </p>
+            <p class="lead">
+                <img id="button" src="images/GooglePlay.png" class="img-fluid">
+            </p>
+            <p class="lead pt-2"><img class="img-fluid" src="images/IPhone.png"></p>
+        </main>
+
+        <footer class="mt-auto text-white-50">
+            <p><a href="https://getbootstrap.com/" class="text-white">Политика конфединциальности</a>, <a
+                    href="https://twitter.com/mdo" class="text-white">Условия использования</a>.</p>
+        </footer>
+    </div>
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+
 </body>
 
 </html>
